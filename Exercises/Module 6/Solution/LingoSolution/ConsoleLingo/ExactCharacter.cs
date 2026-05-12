@@ -12,7 +12,7 @@ public class ExactCharacter : LingoCharacter
         Console.Write(Character);
         Console.ResetColor();
     }
-    public static new ExactCharacter Create(char c, int i)
+    public static new  ExactCharacter Create(char c, int i)
     {
         return new ExactCharacter { Character = c, Position = i };
     }
