@@ -1,7 +1,14 @@
-﻿namespace Canon;
+﻿using Protocollen;
 
-public class Camera
+namespace Canon;
+
+public class Camera : IDetect
 {
+    public void Activate()
+    {
+        Start();
+    }
+
     public void Start()
     {
         Console.WriteLine("De camera start de opnames");

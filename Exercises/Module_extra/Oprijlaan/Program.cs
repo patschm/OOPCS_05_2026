@@ -16,6 +16,11 @@ class Program
         var lamp = new Lamp();
         var camera = new Camera();
 
+        detectielus.Connect(hek);
+        detectielus.Connect(valkuil);
+        detectielus.Connect(lamp);
+        detectielus.Connect(camera);
+
         detectielus.HmmmWatZienIkDaar();
         
     }
